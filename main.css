@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+header,
+h1, section h2, section h3{
+    font-family: 'Metal', cursive;
+}
+
+header{
+    padding: 16px 2px;
+    background-color: rgba(0, 0, 0);
+    color: #948d7b;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+header nav li a{
+    color: #948d7b;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin:  0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container .Contact_us{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content  {
+    background: #000 url(./Imagens/LinkinPark_Logo.jpg) no-repeat center;
+}
+
+section .container ol li{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.container img{
+    height: 300px;
+    padding-right: 20px;
+}
+
+.Albuns-ranking img{
+    height: 60px;
+    margin-left: 10px;
+}
+
+.Albuns-ranking li {
+    margin-left: 200px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0px;
+}
+
+section h2{
+    margin-bottom: 12px;
+}
+
+section{
+    color: #948d7b;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.social-medias img{
+    height: 50px;
+}
+
+.social-medias li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-medias li a{
+    text-decoration: none;
+}
+
+#Suggestion .container{
+    display: block;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 300px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+footer{
+    background-color: #948d7b;
+    color: #000;
+    padding: 20px;
+}
